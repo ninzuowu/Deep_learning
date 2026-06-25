@@ -1,0 +1,14 @@
+# 数据集路径（自动匹配你的目录结构）
+path: .  # 相对路径，不用改
+train: train/images
+val: valid/images
+test: test/images
+
+# 5类野菜
+nc: 5
+names:
+  0: asparagus
+  1: Chickweed
+  2: Leek
+  3: Peppergrass
+  4: Sow
